@@ -5,7 +5,7 @@ NEWSPIDER_MODULE = 'bing_scraper.spiders'
 
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 LOG_LEVEL = 'INFO'
 

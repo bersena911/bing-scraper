@@ -63,7 +63,6 @@ class BingParser(scrapy.Spider):
 
     def parse(self, response):
         query = response.meta['query']
-        print(query)
 
         # Get number of results
         results = response.xpath(
