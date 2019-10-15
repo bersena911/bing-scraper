@@ -12,6 +12,12 @@ Just Scrape It
 
 # Bing Parser
 
-```scrapy crawl bing -a target=instagram.com -a length=2 -t jsonlines -o filename.out```
+```scrapy crawl bing -a target=instagram.com -a input_alphabet=abcdef -a length=2 -t jsonlines -o filename.out```
+
+## Arguments
+
+- ```target - Target webpage to collect information about```
+- ```input_alphabet - Characters to permutate, for getting queries```
+- ```length - Length of query```
 
 #### Last argument must be an output filename
